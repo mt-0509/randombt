@@ -21,6 +21,8 @@
   height: 300px;
   background-color: white;
   border: 3px solid;
+  font-size: 200px;
+  text-align: center;
 }
 
 #vs {
