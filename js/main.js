@@ -26,8 +26,12 @@
     function result () {
       if (myattack > cupattack) {
         alert('あなたの勝ちです!');
+        mine.innerHTML = "";
+        cup.innerHTML = "";
       } else {
         alert('あなたの負けです!');
+        mine.innerHTML = "";
+        cup.innerHTML = "";
       }
     }
     setTimeout(result, 1000);
